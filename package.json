@@ -1,0 +1,30 @@
+{
+  "name": "test-lauram",
+  "version": "1.0.0",
+  "description": "Playwright tests for purchase flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:debug": "cross-env PWDEBUG=1 npx playwright test",
+    "test:headed": "cross-env HEADLESS=false npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "e2e",
+    "qa"
+  ],
+  "author": "Laura Bueno Moreira",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1",
+    "cross-env": "^10.1.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "dotenv": "^16.4.5",
+    "node": "^25.2.0"
+  }
+}
