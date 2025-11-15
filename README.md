@@ -110,11 +110,3 @@ Running the test validates the entire purchase flow — from login to checkout �
 
 ---
 
-Se quiser, posso:
-
-✨ adicionar badges
-✨ adicionar prints ou GIF da execução
-✨ criar versão dark, minimalista ou corporativa
-✨ traduzir para PT-BR
-
-Só pedir!
